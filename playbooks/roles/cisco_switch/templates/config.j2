@@ -1,0 +1,16 @@
+hostname {{ hostname }}
+
+# Configure all interfaces
+{% for interface in range(1, 8) %}
+interface GigabitEthernet1/0/{{ interface }}
+ description Configured by Ansible
+ switchport
+ switchport mode access
+ switchport access vlan 100
+{% endfor %}
+
+# Configure SVI VLAN 100
+interface Vlan100
+ description Configured by Ansible
+ ip address {{ svi_vlan_100_ip }} 255.255.255.0
+ no shutdown

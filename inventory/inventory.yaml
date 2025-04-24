@@ -1,0 +1,10 @@
+all:
+  hosts:
+    switch1:
+      ansible_host: 10.233.24.103
+      hostname: switch1
+      svi_vlan_100_ip: 10.0.0.1
+    switch2:
+      ansible_host: 10.233.24.104
+      hostname: switch2
+      svi_vlan_100_ip: 10.0.0.2
