@@ -30,7 +30,6 @@ ansible_ios/
 └── README.md             # Project documentation
 ```
 
-
 ## Getting Started
 
 ### Prerequisites
@@ -47,7 +46,6 @@ ansible_ios/
    git clone https://github.com/adamordal/ansible_ios.git
    cd ansible_ios
    ```
-
 
 2. **Configure Inventory**:
 
@@ -81,7 +79,7 @@ Ensure that the `ansible.cfg` file is correctly configured to suit your environm
 
 ## Contributing
 
-Contributions are welcome! Please fork the repository and submit a pull request with your enhancements or bug fixes.
+Contributions are welcome! Please fork the repository and submit a pull request with your enhancements or bug fixes.
 
 ## License
 
