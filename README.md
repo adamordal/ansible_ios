@@ -1,7 +1,7 @@
 
 # Ansible IOS
 
-This repository provides Ansible playbooks and roles designed to automate the configuration and management of Cisco IOS-based network devices. It leverages Ansible's capabilities to streamline network operations, ensuring consistency and efficiency across device configurations.
+This repository provides Ansible playbooks and roles designed to automate the configuration and management of Cisco IOS-based network devices. It leverages Ansible's capabilities to streamline network operations, ensuring consistency and efficiency across device configurations.
 
 ## Features
 
@@ -85,7 +85,7 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 
 ## License
 
-This project is open-source and available under the [MIT License](LICENSE).
+This project is open-source and available under the [MIT License](https://github.com/rvm/rvm1-ansible/blob/master/LICENSE).
 
 ---
 
