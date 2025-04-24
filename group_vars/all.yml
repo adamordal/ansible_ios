@@ -1,0 +1,8 @@
+---
+# Common variables for all hosts
+# Credentials should be an ENV variable in real life
+ansible_password: MyP@ssword
+ansible_user: admin
+ansible_python_interpreter: /usr/bin/python3
+ansible_connection: network_cli
+ansible_network_os: ios
