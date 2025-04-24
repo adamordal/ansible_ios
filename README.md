@@ -69,13 +69,13 @@ ansible-playbook -i inventory/hosts playbooks/switch_apply.yml
 ```
 
 
-Ensure that the `ansible.cfg` file is correctly configured to suit your environment, specifying parameters like `inventory`, `remote_user`, and connection settings.
+Ensure that the `ansible.cfg` file is correctly configured to suit your environment, specifying parameters like `inventory`, `remote_user`, and connection settings.
 
 ## Customization
 
 - **Templates**: Modify Jinja2 templates in `roles/cisco_switch/templates/` to match your desired configurations.
 - **Tasks**: Adjust tasks in `roles/cisco_switch/tasks/main.yml` to include additional configuration steps or logic.
-- **Variables**: Define host or group-specific variables to tailor configurations per device or group.
+- **Variables**: Define host or group-specific variables to tailor configurations per device or group.
 
 ## Contributing
 
