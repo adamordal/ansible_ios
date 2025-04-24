@@ -29,7 +29,7 @@ ansible_ios/
 │       └── templates/    # Jinja2 templates for configurations
 └── README.md             # Project documentation
 ```
-
+
 
 ## Getting Started
 
@@ -47,7 +47,7 @@ ansible_ios/
    git clone https://github.com/adamordal/ansible_ios.git
    cd ansible_ios
    ```
-
+
 
 2. **Configure Inventory**:
 
@@ -69,7 +69,7 @@ Run the playbook to apply configurations:
 ```bash
 ansible-playbook -i inventory/hosts playbooks/switch_apply.yml
 ```
-
+
 
 Ensure that the `ansible.cfg` file is correctly configured to suit your environment, specifying parameters like `inventory`, `remote_user`, and connection settings.
 
