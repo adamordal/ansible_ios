@@ -8,7 +8,7 @@ This repository provides Ansible playbooks and roles designed to automate the co
 - **Automated Configuration**: Deploy and manage configurations on Cisco IOS devices using Ansible playbooks.
 - **Modular Roles**: Utilize the `cisco_switch` role for organized and reusable configuration tasks.
 - **Inventory Management**: Define and manage device groups and variables through structured inventory files.
-- **Customizable Variables**: Override default settings using group variables for flexible deployments.
+- **Customizable Variables**: Override default settings using group variables for flexible deployments.
 
 ## Repository Structure
 
@@ -37,7 +37,7 @@ ansible_ios/
 
 - Ansible installed on your control node.
 - Access credentials for the target Cisco IOS devices.
-- Python packages: `paramiko`, `netmiko`, or other relevant networking libraries if required.
+- Python packages: `paramiko`, `netmiko`, or other relevant networking libraries if required.
 
 ### Setup
 
@@ -63,7 +63,7 @@ ansible_ios/
 
 ### Execution
 
-Run the playbook to apply configurations:
+Run the playbook to apply configurations:
 
 
 ```bash
@@ -89,6 +89,6 @@ This project is open-source and available under the [MIT License](https://github
 
 ---
 
-For more information and best practices on using Ansible for network automation, refer to the [Ansible Network Automation Guide](https://docs.ansible.com/ansible/latest/network/index.html).
+For more information and best practices on using Ansible for network automation, refer to the [Ansible Network Automation Guide](https://docs.ansible.com/ansible/latest/network/index.html).
 
 --- 
